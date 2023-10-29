@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Filmoteka</title>
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleLightbox library</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/01-gallery.css" />
+  </head>
+  <body>
+
+    <p><a href="index.html">Go back</a></p>
+    <!-- inserción de código Rafael -->
+    <header>
+      <div class="header-bg">
+          <img src="film.svg" alt="Ícono de película" class="film-icon">
+          <h1>Filmoteka</h1>
+          <form id="search-form">
+              <input type="text" placeholder="Buscar..." id="search-input">
+              <button type="submit"><img src="search.svg" alt="Ícono de búsqueda"></button>
+          </form>
+          <nav>
+              <ul>
+                  <li><a href="#" class="active">HOME</a></li>
+                  <li><a href="#">MY LIBRARY</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+    <!-- Add gallery items to this list -->
+    <ul class="gallery"></ul>
+
+    <script src="js/01-gallery.js" type="module"></script>
+  </body>
+</html>
