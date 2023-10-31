@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <title>Filmoteka</title>
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,24 @@
     <link rel="stylesheet" href="/01-gallery.7d68834f.css">
   </head>
   <body>
-    <p><a href="/index.html">Go back</a></p>
 
+    <p><a href="/index.html">Go back</a></p>
+    <!-- inserción de código Rafael -->
+    <header>
+      <div class="header-bg">
+          <img src="/sprite.15147c25.svg#film.svg" alt="Ícono de película" class="film-icon">
+          <h1 style="color: #fff">Filmoteka</h1>
+          <form id="search-form">
+              <input type="text" placeholder="Buscar..." id="search-input">
+          </form>
+          <nav>
+              <ul>
+                  <li><a href="#" class="active">HOME</a></li>
+                  <li><a href="#">MY LIBRARY</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
     <!-- Add gallery items to this list -->
     <ul class="gallery"></ul>
 

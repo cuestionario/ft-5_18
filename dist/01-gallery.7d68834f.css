@@ -3,6 +3,59 @@
   --animation-duration: 250ms;
 }
 
+.header-bg {
+  text-align: center;
+  background-image: url("header-bg.8ec50a9a.png");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+#search-input {
+  width: 250px;
+  background-image: url("sprite.15147c25.svg#search.svg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+.film-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  color: #fff;
+  background-color: #adff2f;
+  margin-right: 10px;
+  display: flex;
+}
+
 .gallery {
   max-width: 1140px;
   grid-gap: 12px;
