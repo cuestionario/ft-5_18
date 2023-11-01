@@ -4,23 +4,55 @@
 }
 
 .header-bg {
-  text-align: center;
+  min-height: 320px;
   background-image: url("header-bg.8ec50a9a.png");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   display: flex;
 }
 
+.l1-header {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px 0;
+  display: flex;
+}
+
+.marca {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+}
+
+#search-form {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
 #search-input {
-  width: 250px;
+  width: 344px;
   color: #fff;
   background: none;
   border: none;
   border-bottom: 1px solid #fff;
-  padding: 10px 30px 10px 10px;
+  padding: 10px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin: 0;
 }
 
 nav ul {
@@ -48,10 +80,9 @@ nav a {
 .film-icon {
   width: 24px;
   height: 24px;
-  vertical-align: middle;
   color: #fff;
-  background-color: #adff2f;
-  margin-right: 10px;
+  background-color: #000;
+  margin: 0;
   display: flex;
 }
 

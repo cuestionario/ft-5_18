@@ -4,29 +4,55 @@
 }
 
 .header-bg {
-  background-image: url("/src/images/header-bg.png"); 
-  background-size: cover;
+  background-image: url("/src/images/header-bg.png");
+  background-size: 100% auto; 
   background-position: center;
-  text-align: center;
-  align-items: center;
-  padding: 20px;
+  background-repeat: no-repeat; 
+  min-height: 320px; 
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 20px;
+}
 
+.l1-header {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  margin: 10px 0; 
+}
 
+.marca {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+h1 {
+  margin: 0;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  width: 100%; 
 }
 
 #search-input {
-  padding: 10px 30px 10px 10px; /* Añade espacio a la derecha para el icono */
-  width: 250px;
+  padding: 10px;
+  width: 344px; 
   border: none;
-  background-image: url('/src/images/svg/sprite.svg#search.svg'); /* Ruta del icono SVG */
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 20px 20px; /* Ajusta el tamaño del icono según tus necesidades */
-  background: transparent;
   border-bottom: 1px solid #fff;
+  background: transparent;
   color: #fff;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  margin: 0;
 }
 
 nav ul {
@@ -42,9 +68,9 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff; /* Cambia el color del texto a blanco */
+  color: #fff; 
   font-weight: bold;
-  font-size: 16px; /* Tamaño de fuente deseado */
+  font-size: 16px; 
 }
 
 #search-input:focus {
@@ -55,11 +81,11 @@ nav a {
   width: 24px;
   height: 24px;
   display: flex;
-  margin-right: 10px;
-  vertical-align: middle;
-  background-color: greenyellow;
+  margin: 0;
+  background-color:black;
   color: white;
-}
+} 
+
 
 .gallery {
   display: grid;

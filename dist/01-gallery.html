@@ -10,24 +10,33 @@
     <link rel="stylesheet" href="/01-gallery.7d68834f.css">
   </head>
   <body>
-
     <p><a href="/index.html">Go back</a></p>
     <!-- inserción de código Rafael -->
     <header>
       <div class="header-bg">
-          <img src="/sprite.15147c25.svg#film.svg" alt="Ícono de película" class="film-icon">
-          <h1 style="color: #fff">Filmoteka</h1>
-          <form id="search-form">
-              <input type="text" placeholder="Buscar..." id="search-input">
-          </form>
+        <div class="l1-header">
+          <div class="marca">
+            <svg class="film-icon">
+              <use href="/sprite.15147c25.svg#film"></use>
+            </svg>
+            <h1 style="color: #fff">Filmoteka</h1>
+          </div>
           <nav>
-              <ul>
-                  <li><a href="#" class="active">HOME</a></li>
-                  <li><a href="#">MY LIBRARY</a></li>
-              </ul>
+            <ul>
+              <li><a href="#" class="active">HOME</a></li>
+              <li><a href="#">MY LIBRARY</a></li>
+            </ul>
           </nav>
+        </div>
+        <form id="search-form">
+          <input type="text" placeholder="Buscar..." id="search-input">
+          <svg class="search-icon">
+            <use href="/sprite.15147c25.svg#search"></use>
+          </svg>
+        </form>
       </div>
-  </header>
+    </header>
+
     <!-- Add gallery items to this list -->
     <ul class="gallery"></ul>
 
